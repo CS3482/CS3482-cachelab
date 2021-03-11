@@ -71,7 +71,7 @@ bool Set::isFull()
  * then after the update, the tags are: T A B -
  * 
  */
-bool Set::update(int64_t tag)
+void Set::update(int64_t tag)
 {
    //TO DO
    //getLineNumber is a helper

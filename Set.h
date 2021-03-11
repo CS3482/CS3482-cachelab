@@ -19,6 +19,6 @@ class Set
       ~Set();
       bool isHit(int64_t tag);
       bool isFull();
-      bool update(int64_t tag);
+      void update(int64_t tag);
       void print();
 };
